@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Building Management System</title>
+    <link rel="stylesheet" href="building_management.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>DLF</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#login">Login/Register</a></li>
+                <li><a href="#payments">Payments</a></li>
+                <li><a href="#complaints">Complaints</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="content">
+        <h2>Welcome to DLF Family</h2>
+        <p>Manage your building efficiently with our comprehensive system.</p>
+    </section>
+
+    <section id="login" class="content">
+        <h2>Login or Register</h2>
+        <p>Access your account or register to manage your building details.</p>
+        <form action="bms.php" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+
+    <section id="payments" class="content">
+        <h2>Payments</h2>
+        <p>Manage your payments, dues, and transactions here.</p>
+    </section>
+
+    <section id="complaints" class="content">
+        <h2>Complaints</h2>
+        <p>Lodge complaints regarding any building-related issues.</p>
+    </section>
+
+    <section id="events" class="content">
+        <h2>Events</h2>
+        <p>Stay updated on upcoming building or community events.</p>
+    </section>
+
+    <section id="about" class="content">
+        <h2>About Us</h2>
+        <p></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DLF. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
